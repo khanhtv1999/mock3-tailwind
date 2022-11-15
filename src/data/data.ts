@@ -44,35 +44,35 @@ export const listFeature: Array<featureInterface> = [
   },
 ];
 interface listBlogInterface {
-  heding: string;
+  heading: string;
   date: string;
   describe: string;
   detail: string;
 }
 export const ListBlog: Array<listBlogInterface> = [
   {
-    heding: "UI Interactions of the week",
+    heading: "UI Interactions of the week",
     date: "12 Feb 2019",
     describe: "Express, Handlebars",
     detail:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
   },
   {
-    heding: "UI Interactions of the week",
+    heading: "UI Interactions of the week",
     date: "12 Feb 2019",
     describe: "Express, Handlebars",
     detail:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
   },
   {
-    heding: "UI Interactions of the week",
+    heading: "UI Interactions of the week",
     date: "12 Feb 2019",
     describe: "Express, Handlebars",
     detail:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
   },
   {
-    heding: "UI Interactions of the week",
+    heading: "UI Interactions of the week",
     date: "12 Feb 2019",
     describe: "Express, Handlebars",
     detail:

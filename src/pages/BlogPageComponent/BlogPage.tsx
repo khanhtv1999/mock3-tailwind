@@ -12,7 +12,7 @@ const BlogPage = () => {
               {" "}
               <div>
                 <p className="text-[3.4rem] font-medium font-sans text-[#21243D] leading-[4.4rem] mb-8">
-                  {item.heding}
+                  {item.heading}
                 </p>
                 <div className="flex gap-x-8 mb-8">
                   <span className="text-[2.4rem] font-normal font-sans text-[#21243D] leading-[2.9rem] ">
@@ -23,7 +23,7 @@ const BlogPage = () => {
                     {item.describe}
                   </span>
                 </div>
-                <p className="text-xl font-normal font-sans text-[#21243D] leading-[2.4rem] mb-8">
+                <p className="text-xl font-normal font-sans text-[#21243D] leading-[2.4rem] mb-8 w-[80%]">
                   {item.detail}
                 </p>
               </div>

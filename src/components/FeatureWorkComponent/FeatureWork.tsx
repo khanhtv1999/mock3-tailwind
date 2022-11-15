@@ -9,11 +9,11 @@ const FeatureWork = () => {
       {listFeature.map((item) => {
         return (
           <div>
-            <div className="flex gap-x-14 mb-12 max-w-[70%]">
-              <div className="w-[60%]">
-                <img className="w-[100%]" src={item.urlImg} />
+            <div className="flex gap-x-14 mb-12">
+              <div>
+                <img className="max-w-none" src={item.urlImg} />
               </div>
-              <div className="feature__container-heading">
+              <div>
                 <h2 className="text-xxl font-sans mb-4 font-bold text-[#21243D]">
                   {item.heading}
                 </h2>
@@ -25,12 +25,12 @@ const FeatureWork = () => {
                     {item.describe}
                   </span>
                 </div>
-                <p className="text-xl font-normal font-sans leading-[2.4rem]">
+                <p className="text-[1.6rem] w-[60%] font-normal font-sans leading-[2.4rem]">
                   {item.title}
                 </p>
               </div>
             </div>{" "}
-            <hr />
+            <hr className="border-solid-[1px]" />
           </div>
         );
       })}

@@ -1,8 +1,8 @@
 import AvatarHome from "../../assets/images/avatar_home.png";
 const IntroduceComponent = () => {
   return (
-    <div className="grid grid-cols-[2fr_1fr] mb-12 ">
-      <div className="max-w-[55.6rem]">
+    <div className="grid grid-cols-[2fr_1fr] mb-12 sm:flex flex-col gap-y-14 mobile:pl-8 pr-8">
+      <div className="max-w-[55.6rem] sm:order-1 sm:flex sm:flex-col sm:max-w-[100%] sm:justify-center sm:items-center sm:text-center">
         <h1 className="text-primary font-bold font-sans leading-24 mb-16">
           Hi, I am John,
           <br /> Creative Technologist
@@ -16,8 +16,8 @@ const IntroduceComponent = () => {
           Dowload Resume
         </button>
       </div>
-      <div className="flex justify-end">
-        <img className="w-[25rem] h-[25rem]" src={AvatarHome} />
+      <div className="flex justify-end sm:justify-center sm:items-center">
+        <img className="w-[25rem] h-[25rem] max-w-none " src={AvatarHome} />
       </div>
     </div>
   );

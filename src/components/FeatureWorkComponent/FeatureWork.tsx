@@ -4,14 +4,14 @@ import { listFeature } from "../../data/data";
 
 const FeatureWork = () => {
   return (
-    <div className="flex flex-col gap-y-16">
+    <div className="flex flex-col gap-y-16 mobile:pl-8 mobile:pr-8">
       <p className="text-[2.2rem] leading-[6rem] mt-3">Featured works</p>
       {listFeature.map((item) => {
         return (
           <div>
-            <div className="flex gap-x-14 mb-12">
-              <div>
-                <img className="max-w-none" src={item.urlImg} />
+            <div className="flex gap-x-14 mb-12 sm:flex sm:flex-col">
+              <div className="sm:flex justify-center mb-12 mobile:w-[100%]">
+                <img className="max-w-none mobile:w-[100%]" src={item.urlImg} />
               </div>
               <div>
                 <h2 className="text-xxl font-sans mb-4 font-bold text-[#21243D]">
@@ -25,7 +25,7 @@ const FeatureWork = () => {
                     {item.describe}
                   </span>
                 </div>
-                <p className="text-[1.6rem] w-[60%] font-normal font-sans leading-[2.4rem]">
+                <p className="text-[1.6rem] w-[60%] font-normal font-sans leading-[2.4rem] lg:w-[80%] sm:w-[95%]">
                   {item.title}
                 </p>
               </div>
